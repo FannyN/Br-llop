@@ -1,6 +1,7 @@
 $(function() {
     $('.navigation-icon').click(function() {
         $('nav ul').toggleClass('open')
+        $('.navigation-icon').toggleClass('open')
     })
 })
 

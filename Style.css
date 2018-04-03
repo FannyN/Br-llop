@@ -94,15 +94,96 @@ nav .navigation-icon {
     nav ul {
         display: none;
     }
-    nav .navigation-icon {
+
+    nav .navigation-icon-wrapper {
         display: block;
         cursor: pointer;
-        width: 100px;
-        height: 100px;
-        background-color:#c5b275;
+        width: 40px;
+        height: 30px;
         position: fixed;
-        right: 0;
+        top: 20px;
+        right: 30px;
+        display: flex;
     }
+
+    nav .navigation-icon {
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transition: .5s ease-in-out;
+        -moz-transition: .5s ease-in-out;
+        -o-transition: .5s ease-in-out;
+        transition: .5s ease-in-out;
+    }
+
+    nav .navigation-icon span {
+        display: block;
+        background-color: #000;
+        height: 5px;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transition: .25s ease-in-out;
+        -moz-transition: .25s ease-in-out;
+        -o-transition: .25s ease-in-out;
+        transition: .25s ease-in-out;
+    }
+
+    nav .navigation-icon span:nth-child(1) {
+        top: 0;
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        -o-transform-origin: left center;
+        transform-origin: left center;
+    }
+
+    nav .navigation-icon span:nth-child(2) {
+        top: 12.5px;
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        -o-transform-origin: left center;
+        transform-origin: left center;
+    }
+
+    nav .navigation-icon span:nth-child(3) {
+        top: 25px;
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        -o-transform-origin: left center;
+        transform-origin: left center;
+    }
+
+    nav .navigation-icon.open span:nth-child(1) {
+        top: 0px;
+        left:4px;
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+
+    nav .navigation-icon.open span:nth-child(2) {
+        opacity: 0;
+    }
+
+    nav .navigation-icon.open span:nth-child(3) {
+        top: 28px;
+        left:4px;
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+    }
+
     ul.open {
         display: flex;
         flex-direction: column;
