@@ -8,7 +8,7 @@ body {
     color: rgb(49, 49, 49);
     text-align: center;
     margin: 0;
-    background-color: #fffef7;
+    background-color:#f9f7ef;
 }
 
 @media (max-width: 400px) {
@@ -51,7 +51,7 @@ h1 {
     font-size: 40px;
     font-weight: 200;
     text-align: center;
-    color: rgb(49, 49, 49);
+    color: #565654;
 }
 
 
@@ -62,7 +62,7 @@ h2, p {
 h2 {
     font-size: 20px;
     font-weight: 100;
-    color: #c5b275;
+    color: #cec3b5;
 }
 
 p {
@@ -81,7 +81,7 @@ nav {
     background-color:#fffef7;
     justify-content: center;
     border-bottom-style: solid ;
-    border-bottom-color: #cabc8c;
+    border-bottom-color: #cec3b5;
     margin: 0px;
 }
 
@@ -123,7 +123,7 @@ nav .navigation-icon {
 
     nav .navigation-icon span {
         display: block;
-        background-color: #000;
+        background-color: #f7f0e8;
         height: 5px;
         width: 100%;
         position: absolute;
@@ -189,7 +189,7 @@ nav .navigation-icon {
         flex-direction: column;
         width: 100vw;
         height: 100vh;
-        background-color: #c5b275;
+        background-color: #cec3b5;;
     }
     ul.open li a {
         color: black;
@@ -232,22 +232,41 @@ a {
     font-size: 15px; 
 }
 
-.top-section {
+/*.top-section {
     margin-top: 80px;
-}
+}*/
 
-header {
+/*header {
     background-image: url("Headbild.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 100%;
     margin: 0px;
     Height: 550px;
+}*/
+
+.header {
+    background-image: url("natur_toppbild.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom-style: double;
+    color: #5a5a5a;
 }
 
+container {
+    border-style: double;
+    padding: 50px;
+    color: white;
+}
 
-.section-gold{
-    background-color:#c5b275;
+.text-section-top {
+    display: flex;
+    color: #f7f0e8;
+    margin: 5px;
+}
+
+.section-gold {
+    background-color: #cec3b5;
     color: white;
 }
 
@@ -257,12 +276,12 @@ header {
 }
 
 #Wishlist {
-    background-color:#dacfae;
+    background-color:#e2ddd6;
 }
     
 .button {
     display: block;
-    background: #e7d7a0;
+    background: #cec3b5;
     border-radius: 5px;
     font-family: calibri;
     text-decoration: none;
@@ -282,11 +301,9 @@ header {
     }
 }
 
-/*footer {
-    border-top-style: groove;
-    border-bottom-style: groove;
-    color: #c5b275;
-    margin: 0px 20px 0px 20px;
+footer {
+    background-color:#cec3b5;
     padding: 30px;
-    font-size: 25px;
-}*/
+    border-top-style: double;
+    color: #a8a8a8;
+}
