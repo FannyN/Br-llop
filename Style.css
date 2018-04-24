@@ -220,7 +220,7 @@ section {
     padding: 50px;
 }
 
-.text-block:last-child {
+.text-block: nth-child(2) {
     border-left: 1px solid white;
 }
 
@@ -231,7 +231,7 @@ section {
             font-size: 13px;
     }
 
-    .text-block:last-child {
+    .text-block:nth-child(2) {
         margin-bottom: 0px;
         border-left: none;
     }   
