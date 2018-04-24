@@ -15,11 +15,11 @@ nav {
     nav ul {
         display: none;
     }
+    nav .navigation-icon {
+        display: block;
+    }
 }
 
-nav .navigation-icon {
-    display: block;
-}
 
 nav .navigation-icon-wrapper {
     display: block;
