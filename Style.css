@@ -220,7 +220,7 @@ section {
     padding: 50px;
 }
 
-.text-block: nth-child(2) {
+.text-block:nth-child(2) {
     border-left: 1px solid white;
 }
 
