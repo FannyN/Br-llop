@@ -218,6 +218,7 @@ section {
     line-height: 25px;
     letter-spacing: 2px;
     padding: 50px;
+    border-left: 1px solid ;white
 }
 
 @media (max-width: 1000px) {
@@ -229,6 +230,7 @@ section {
 
     .text-block:last-child {
         margin-bottom: 0px;
+        border-right: none;
     }   
 }
 
