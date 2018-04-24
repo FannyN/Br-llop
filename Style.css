@@ -115,7 +115,7 @@ ul.open li a {
 ul {
     list-style-type: none;
     display: flex;
-    margin-right: 30px;
+    padding-right: 30px;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -214,7 +214,7 @@ section {
 }
 
 .text-block {
-    width: 500px;
+    max-width: 500px;
     line-height: 25px;
     letter-spacing: 2px;
     padding: 50px;
