@@ -205,13 +205,13 @@ section {
     justify-content: space-around;
 }
 
-/*@media (max-width: 1000px) {
+@media (max-width: 1000px) {
     .main-column {
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-}*/
+}
 
 .text-block {
     width: 500px;
