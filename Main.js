@@ -1,11 +1,6 @@
-$(function() {
-    $('.navigation-icon').click(function() {
-        $('nav ul').toggleClass('open')
-        $('.navigation-icon').toggleClass('open')
+$(function () {
+    $('.navigation-icon, nav ul li a').click(function () {
+      $('nav ul').toggleClass('open')
+      $('.navigation-icon').toggleClass('open')
     })
-})
-
-
-// var sayHello = function(helloMessage) { 
-//     console.log(helloMessage)
-// }
+  })
