@@ -106,11 +106,12 @@ ul.open {
     flex-direction: column;
     min-width: 100vw;
     min-height: 100vh;
-    background-color: #cec3b5;;
+    background-color: #cec3b5;
 }
 
 ul.open li a {
     color: black;
+    color: white;
     }
 
 ul {
@@ -155,7 +156,7 @@ body {
     background-color: #f9f7ef;
     color: #42413d;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 15px;
+    font-size: 13px;
     margin: 0;
   }
 
@@ -222,7 +223,7 @@ section {
 .main-column {
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     margin: 20px;
 }
 
