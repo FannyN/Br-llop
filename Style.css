@@ -9,6 +9,7 @@ nav {
    background-color: #fffef7;
    border-bottom-style: solid;
    border-bottom-color: #cec3b5;
+   z-index: 3;
 }
 
 
@@ -204,6 +205,7 @@ body {
     padding: 10px;
     border-radius: 20px;
     opacity: 0.9;
+    z-index: 1;
 }
 
 .button:hover {
