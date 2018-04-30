@@ -211,7 +211,7 @@ body {
 }
 
 section {
-   height: 100vh;
+   min-height: 100vh;
    width: 100%;
    display: flex;
    justify-content: center;
@@ -235,11 +235,11 @@ section {
 }
 
 .text-block {
+    width: 100%;
     max-width: 550px;
     line-height: 25px;
     letter-spacing: 2px;
     padding: 50px;
-    margin: 20px;
 }
 
 .text-block:nth-child(2) {
@@ -286,7 +286,7 @@ h2 {
 
 @media (max-width:500px) {
     h2 {
-        font-size: 22px;
+        font-size: 20px;
     }
 }
 
